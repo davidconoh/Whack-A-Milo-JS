@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 
@@ -34,7 +35,6 @@
 .grid h1{
     margin: 100px;
     font-size: 50px;
-    font-family: sans-serif;
     color: #D5E1B3;
     text-decoration: underline;
 }
