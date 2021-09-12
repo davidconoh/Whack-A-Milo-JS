@@ -57,7 +57,7 @@ document.querySelector(".playBtn").onclick = function(){
         miloImg.addEventListener('click', function(){
             score = score + 1;
             console.log(score);
-            document.querySelector('.score_num').textContent = score;
+            document.querySelector('.score').textContent = score;
         });
 
         function blankImg(){
