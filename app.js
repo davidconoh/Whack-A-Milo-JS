@@ -51,7 +51,7 @@ document.querySelector(".playBtn").onclick = function(){
         var image = Math.floor(Math.random() * 8);
         var miloImg = document.createElement('img');
         miloImg.setAttribute('class', 'milo');
-        miloImg.src = `milo.png`;
+        miloImg.src = `assets/milo.png`;
         document.getElementById(image).appendChild(miloImg);
 
         miloImg.addEventListener('click', function(){
